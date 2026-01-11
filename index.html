@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="min-h-screen flex justify-center items-center flex-col gap-3 bg-[#121212] select-none">
+    <div class="loading text-4xl absolute inset-0 flex justify-center items-center bg-black text-white">
+      Loading...
+    </div>
+    <h1 class="text-2xl text-white font-bold">Simon Game</h1>
+    <h2 class="text-center text-lg text-white">Press Key S to start the game</h2>
+    <div id="container" class="inline-grid grid-cols-2 grid-rows-2 gap-2 mt-10">
+      <div class="game-btn red bg-red-500 hover:bg-red-600  justify-self-end"></div>
+      <div class="game-btn green bg-green-500 hover:bg-green-600 "></div>
+      <div class="game-btn yellow bg-yellow-500 hover:bg-yellow-600  justify-self-end"></div>
+      <div class="game-btn blue bg-blue-500 hover:bg-blue-600 "></div>
+    </div>
+    <button class="absolute bottom-4 right-4 bg-white hover:scale-105 active:scale-97 transition text-black py-1 px-2 rounded-md cursor-pointer hidden " id="reset-btn">Reset Game</button>
+    <script src="/app.js"></script>
+  </body>
+</html>

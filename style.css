@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+#container div {
+  height: 200px;
+  width: 200px;
+  border-radius: 16px;
+  border: 4px solid rgb(56, 55, 55);
+  cursor: pointer;
+}
+
+/* {
+  display: none;
+} */
+
+/* .red{
+  background-color: #fb2c36;
+} */
+
+.red-flash{
+  background-color: #ffa2a2;
+}
+
+.green-flash{
+  background-color: #7bf1a8;
+}
+
+.yellow-flash{
+  background-color: #ffdf20;
+}
+
+.blue-flash{
+  background-color: #8ec5ff;
+}
